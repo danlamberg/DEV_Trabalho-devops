@@ -1,5 +1,5 @@
 # Trabalho - Processo 
-Tecnologia/plataforma
+Tecnologia/plataforma<br/>
 1 - Criar repositório<br/>
 2 - Incluir a equipe no repositório<br/>
 3 - Criar as branches padrão da sua equipe<br/>
