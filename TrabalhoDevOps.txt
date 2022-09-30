@@ -17,3 +17,21 @@ O que é o Controle de Versão e quais são suas Vantagens?
 - Rastreabilidade: com o histórico das alterações, nós conseguimos ver as alterações, os autores que fizeram as alterações e a data de cada uma
     dessas alterações. Conseguimos ter os detalhes de cada alteração feita. É extremamente importante em desenvolvimento de software identificar o
     autor responsável pela mudança.
+
+Tipos de Controle de Versão
+    Existem dois tipos de controle de versão: o Centralizado e o Distribuído.
+- Centralizado: o sistema de controle de versão centralizado é o sistema que possui um servidor que contém todo o histórico.
+    Se chama centralizado porque todas as versões estão guardadas em um lugar só: no Servidor. Se uma pessoa for trabalhar em um projeto nesse
+    sistema, ela precisa ter permissão para acessar o servidor. Essa pessoa não tem, por exemplo, o histórico das versões em sua máquina. 
+    Para consultar o histórico é necessário acessar o servidor. Para baixar uma versão do projeto, a pessoa teria que fazer uma conexão no
+    servidor e fazer o download dessa versão.
+    Esse sistema foi padrão por muitos anos. O principal software de controle de versão centralizado foi o Subversion (SVN), que surgiu no 
+    ano 2000. Em algumas situações, esse sistema pode ser o mais recomendado para ser usado, se encaixando melhor. Outros exemplos de sistema
+    de controle de versão centralizado é o Team Foundation Server (TFS) e o Perforce.
+- Distribuído: esse sistema de controle de versão fica distribuído nas máquinas que estão cooperando no repositório, além do servidor.
+    Todas as pessoas que estão trabalhando em um projeto distribuído têm acesso ao histórico de versões, pois todo o histórico do projeto 
+    é levado para a máquina local. Se quisermos criar uma branch (ramificação), acessar o histórico ou criar uma versão, nós fazemos na máquina
+    local, sem precisar acessar o servidor.
+    Como vantagens desse sistema temos maior rapidez para fazer as alterações, pois essas alterações são feitas localmente.
+    Outra grande vantagem é a réplica do repositório pois, caso o servidor queime, cada pessoa trabalhando no projeto terá uma versão em sua
+    máquina local. Como principal exemplo de software de controle de versão distribuído temos o Git, que é o tema desse curso.
