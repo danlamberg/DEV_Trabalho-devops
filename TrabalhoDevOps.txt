@@ -35,3 +35,13 @@ Tipos de Controle de Versão
     Como vantagens desse sistema temos maior rapidez para fazer as alterações, pois essas alterações são feitas localmente.
     Outra grande vantagem é a réplica do repositório pois, caso o servidor queime, cada pessoa trabalhando no projeto terá uma versão em sua
     máquina local. Como principal exemplo de software de controle de versão distribuído temos o Git, que é o tema desse curso.
+Características do Git
+    Dentre as principais características do Git, podemos citar:
+    Operações locais, como a navegação pelo histórico, a criação de ramificações do projeto e a troca de versões sem 
+    precisar comunicar o servidor;
+    Somente adição de conteúdo, pois mesmo quando um arquivo é removido, no repositório ocorre a adição de uma remoção 
+    do arquivo. Ou seja, quando apagamos um arquivo do repositório ele não vai sumir do projeto. Esse arquivo apenas não 
+    vai estar nessa versão do projeto, mas vai estar na versão anterior.
+    Integridade, que tem a ver com a característica anterior. Uma vez que o arquivo é adicionado, todo seu histórico é 
+    mantido.
+    Autonomia, onde vários colaboradores conseguem realizar alterações sem a dependência de arquivos.
