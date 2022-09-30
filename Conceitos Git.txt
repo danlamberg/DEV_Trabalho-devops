@@ -47,5 +47,23 @@ Características do Git
     mantido.
     Autonomia, onde vários colaboradores conseguem realizar alterações sem a dependência de arquivos.
 
+<<<<<<< HEAD
 
+=======
+Comandos Básicos do Git
+    - git init: inicializa o repositório do Git dentro da pasta do projeto.
+    - git status:. informa o estado dos arquivos e diretórios dentro do repositório Git.
+    - git add .: esse comando prepara as alterações que foram feitas para receber o commit.
+    - git commit -m “mensagem”: esse comando faz o commit das alterações, salvando essas alterações no repositório do Git.
+    A mensagem entre aspas é a identificação do commit.
+    - git diff: mostra a diferença dos arquivos entre as duas últimas versões.
+    - git log: apresenta todo o histórico de commits do repositório.
+    - git checkout: possibilita alternar entre as versões e branchs.
+    - git clone: clona repositórios existentes no servidor remoto para nossa máquina local
+    - git remote add: faz o link entre o repositório local e o repositório remoto.
+    - git pull: baixa a versão mais atual do projeto no repositório remoto.
+    - git push: carrega o código e os commits da máquina local e envia para o repositório remoto.
+    - git branch: cria uma branch ou lista as branchs existentes.
+    - git merge: junta as alterações da branch criada para a branch raiz.
+>>>>>>> DEV1
 
