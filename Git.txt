@@ -1,4 +1,4 @@
-CONTROLE DE VERSAO GIT
+**CONTROLE DE VERSAO GIT**
 
 O que é o Controle de Versão e quais são suas Vantagens?
     O Git é um Software de controle de versão que consegue fazer um gerenciamento de versões e das mudanças em um documento.
@@ -35,6 +35,7 @@ Tipos de Controle de Versão
     Como vantagens desse sistema temos maior rapidez para fazer as alterações, pois essas alterações são feitas localmente.
     Outra grande vantagem é a réplica do repositório pois, caso o servidor queime, cada pessoa trabalhando no projeto terá uma versão em sua
     máquina local. Como principal exemplo de software de controle de versão distribuído temos o Git, que é o tema desse curso.
+
 Características do Git
     Dentre as principais características do Git, podemos citar:
     Operações locais, como a navegação pelo histórico, a criação de ramificações do projeto e a troca de versões sem 
@@ -45,3 +46,6 @@ Características do Git
     Integridade, que tem a ver com a característica anterior. Uma vez que o arquivo é adicionado, todo seu histórico é 
     mantido.
     Autonomia, onde vários colaboradores conseguem realizar alterações sem a dependência de arquivos.
+
+
+
