@@ -1,4 +1,4 @@
-**CONTROLE DE VERSAO GIT**
+CONTROLE DE VERSAO GIT
 
 O que é o Controle de Versão e quais são suas Vantagens?
     O Git é um Software de controle de versão que consegue fazer um gerenciamento de versões e das mudanças em um documento.
@@ -47,9 +47,6 @@ Características do Git
     mantido.
     Autonomia, onde vários colaboradores conseguem realizar alterações sem a dependência de arquivos.
 
-<<<<<<< HEAD
-
-=======
 Comandos Básicos do Git
     - git init: inicializa o repositório do Git dentro da pasta do projeto.
     - git status:. informa o estado dos arquivos e diretórios dentro do repositório Git.
@@ -65,5 +62,5 @@ Comandos Básicos do Git
     - git push: carrega o código e os commits da máquina local e envia para o repositório remoto.
     - git branch: cria uma branch ou lista as branchs existentes.
     - git merge: junta as alterações da branch criada para a branch raiz.
->>>>>>> DEV1
+
 
