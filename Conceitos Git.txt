@@ -47,7 +47,6 @@ Características do Git
     mantido.
     Autonomia, onde vários colaboradores conseguem realizar alterações sem a dependência de arquivos.
 
-
 Comandos Básicos do Git
     - git init: inicializa o repositório do Git dentro da pasta do projeto.
     - git status:. informa o estado dos arquivos e diretórios dentro do repositório Git.
